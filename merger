@@ -1,0 +1,6 @@
+def merger(ll):
+    new_list=[]
+    for l in ll:
+      new_list += l
+      new_list.sort()
+    return new_list
